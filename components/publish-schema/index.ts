@@ -22,6 +22,8 @@ export class PublishSchema extends Resource {
 
     const lambda = new DockerFunction(scope, 'publish-schema-lambda', {
       path: path.join(__dirname, 'function'),
+      timeout: 60,
+      memorySize: 2 * 1024,
       environment: {
         BUCKET: bucket.bucket,
       }

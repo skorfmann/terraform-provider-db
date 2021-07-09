@@ -1,7 +1,7 @@
 export interface ProviderVersions {
   id:       string;
   versions: Version[];
-  warnings: null;
+  warnings: string;
 }
 
 export interface Version {

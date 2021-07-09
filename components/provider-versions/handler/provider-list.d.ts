@@ -15,7 +15,7 @@ export interface Provider {
   owner:        string;
   namespace:    Namespace;
   name:         string;
-  alias:        null;
+  alias:        string;
   version:      string;
   tag:          string;
   description:  string;

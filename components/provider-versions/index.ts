@@ -17,6 +17,8 @@ export class ProviderVersions extends Resource {
 
     const nodeFunction = new NodejsFunction(scope, 'getProviderVersions', {
       path: path.join(__dirname, 'handler', 'index.ts'),
+      timeout: 60,
+      memorySize: 512,
       environment: {
         EVENT_BUS_NAME:  eventBridge.name,
       }
