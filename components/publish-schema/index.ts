@@ -1,10 +1,9 @@
 import { Construct } from "constructs";
 import { Resource } from 'cdktf';
-import { DockerFunction } from '../../constructs/docker-function';
+import { DockerFunction, AwsEventBridge } from '@cdktf-plus/aws';
 import * as aws from '@cdktf/provider-aws';
 import * as iam from 'iam-floyd';
 import * as path from 'path';
-import { AwsEventBridge } from "../../constructs/aws-event-bridge";
 
 export interface PublishSchemaConfig {
   eventBridge: AwsEventBridge

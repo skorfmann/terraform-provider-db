@@ -20,7 +20,7 @@ cdktf deploy
 - [ ] Iterate over all providers
 - [ ] Select compatible Terraform version depending on provider protocol
 - [ ] Add Glue / Athena as constructs
-- [ ] Extract constructs into dedicated repository
+- [x] Extract constructs into dedicated repository
 - [ ] Tests
 - [ ] Cloudfront to make schemas publicly accessible
 - [ ] Web hook to build and publish a single provider schema

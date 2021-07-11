@@ -20,17 +20,16 @@
   },
   "dependencies": {
     "@aws-sdk/client-eventbridge": "^3.20.0",
+    "@cdktf-plus/aws": "^0.0.3",
+    "@cdktf-plus/core": "^0.0.3",
     "@cdktf/provider-aws": "^1.0.115",
     "@cdktf/provider-external": "^0.0.52",
-    "@cdktf/provider-null": "^0.1.116",
+    "@cdktf/provider-null": "^0.1.119",
     "cdktf": "^0.4.1",
     "cdktf-cli": "^0.4.1",
     "constructs": "^3.3.97",
-    "docker-registry-client": "^3.3.0",
-    "esbuild": "^0.12.15",
     "got": "^11.8.2",
-    "hashdirectory": "^0.1.0",
-    "iam-floyd": "^0.205.0"
+    "iam-floyd": "^0.207.0"
   },
   "devDependencies": {
     "@types/node": "^16.0.0",

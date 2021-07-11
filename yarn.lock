@@ -554,6 +554,22 @@
     "@aws-sdk/util-buffer-from" "3.20.0"
     tslib "^2.0.0"
 
+"@cdktf-plus/aws@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@cdktf-plus/aws/-/aws-0.0.3.tgz#68a1848afc146a4173bd4e8b05d34dda96b11b0d"
+  integrity sha512-zlEJdBjSvKkxHFi9RVAM+oI3D41KTnjjYh4lOy5VXkeKV9fk4YwgIE5jIhzeOQlayqafX51owYOmAf4avdMKEg==
+  dependencies:
+    "@cdktf-plus/core" "0.0.3"
+    esbuild-wasm "^0.12.15"
+
+"@cdktf-plus/core@0.0.3", "@cdktf-plus/core@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@cdktf-plus/core/-/core-0.0.3.tgz#84d268347701bb315a63e348e0d27b6e4df85a5f"
+  integrity sha512-Bg51066zghZN7NsRgrsKtNyo887XjoQ/AB24HURvI9g2vhsm0fDNq0blwaLtZsBNMk5d6CzNvicOtfYOHNTL9w==
+  dependencies:
+    docker-registry-client "^3.3.0"
+    hashdirectory "^0.1.0"
+
 "@cdktf/hcl2json@0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@cdktf/hcl2json/-/hcl2json-0.4.1.tgz#904cbcab5c934cb69b32cec06498e0ec4405ca2b"
@@ -572,10 +588,10 @@
   resolved "https://registry.yarnpkg.com/@cdktf/provider-external/-/provider-external-0.0.52.tgz#54ce7052db4ca9d26511cb879429574fc16ea65c"
   integrity sha512-wuYaAVDmtLhgHqAaFXzdiEUtjR/y2TgSrs7tBkd19lLmeJLOHuvkxhWN4QKtFguDAb+fe3lhBSWSy4eOx2PQcg==
 
-"@cdktf/provider-null@^0.1.116":
-  version "0.1.116"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-null/-/provider-null-0.1.116.tgz#60fe87dd7c5581cfe5d23dd9736b34c0befc2e24"
-  integrity sha512-VrP6m6kVvUnpPJgUDYnNhGEB0lKMqNL8/RdAeHHbZTwCgqhKCQU2FwOkSLpRRXr7Trow0xnwZpYxqNvvpqwO+Q==
+"@cdktf/provider-null@^0.1.119":
+  version "0.1.119"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-null/-/provider-null-0.1.119.tgz#6a3f9ae556672c1860492ccb40d31a00958a4cd1"
+  integrity sha512-Q4jWAE28fxCD56nsbeNjA5Vrbk7CAtrseHSDQFWTaedLsG0RP+S2QHp2d9jYlA/LfXQy36RRlqnISwR2ZsWzbA==
 
 "@jsii/spec@^1.30.0":
   version "1.30.0"
@@ -1367,10 +1383,10 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-esbuild@^0.12.15:
+esbuild-wasm@^0.12.15:
   version "0.12.15"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.15.tgz#9d99cf39aeb2188265c5983e983e236829f08af0"
-  integrity sha512-72V4JNd2+48eOVCXx49xoSWHgC3/cCy96e7mbXKY+WOWghN00cCmlGnwVLRhRHorvv0dgCyuMYBZlM2xDM5OQw==
+  resolved "https://registry.yarnpkg.com/esbuild-wasm/-/esbuild-wasm-0.12.15.tgz#b302dbec57d434b11657db813efecf6d8f76ebb6"
+  integrity sha512-VYh9VrCzcRiOCFTjdR6uTpGEPRA8qnlblfBWReE1H/ZOx0NvOOLQf3ZBHH0rOMeyXB6/IBapIymnO8OZzLtFxA==
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -1617,10 +1633,10 @@ http2-wrapper@^1.0.0-beta.5.2:
     quick-lru "^5.1.1"
     resolve-alpn "^1.0.0"
 
-iam-floyd@^0.205.0:
-  version "0.205.0"
-  resolved "https://registry.yarnpkg.com/iam-floyd/-/iam-floyd-0.205.0.tgz#bbe1e604e7b96653d253563ae59fb278a0871685"
-  integrity sha512-rLGPdE69bDZ0KxiuElLiIul6i1lOQGCi0Do50FxQ2n4069IQaBnqaPencWtLgod4EWYDUCNTPSyzCZw2S2orVA==
+iam-floyd@^0.207.0:
+  version "0.207.0"
+  resolved "https://registry.yarnpkg.com/iam-floyd/-/iam-floyd-0.207.0.tgz#ea0673403a64845b51f2adbe61768a80782849a9"
+  integrity sha512-uSZ0kkjbvnMCpkQrRkqMTajFtcbYHrQ1H384l28JlD7HTB8OrZBspf22k9oKOTuTsWWdyihzeLNsbn3IY06p8A==
   dependencies:
     "@udondan/common-substrings" "^3.0.2"
     regex-parser "^2.2.11"

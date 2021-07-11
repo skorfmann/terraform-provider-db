@@ -3,7 +3,7 @@ import { App, TerraformStack, RemoteBackend } from 'cdktf';
 import * as aws from '@cdktf/provider-aws';
 import { PublishSchema } from '../components/publish-schema'
 import { ProviderVersions } from '../components/provider-versions'
-import { AwsEventBridge } from '../constructs/aws-event-bridge'
+import { AwsEventBridge } from '@cdktf-plus/aws'
 
 class DevStack extends TerraformStack {
   constructor(scope: Construct, name: string) {

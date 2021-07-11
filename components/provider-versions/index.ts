@@ -1,9 +1,8 @@
 import { Construct } from "constructs";
 import { Resource } from 'cdktf';
-import { NodejsFunction } from '../../constructs/nodejs-function';
+import { NodejsFunction, AwsEventBridge } from '@cdktf-plus/aws';
 import * as iam from 'iam-floyd';
 import * as path from 'path';
-import { AwsEventBridge } from '../../constructs/aws-event-bridge';
 
 export interface ProviderVersionsConfig {
   eventBridge: AwsEventBridge;
